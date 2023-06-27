@@ -7,6 +7,7 @@ import { CatsRepository } from './cats.repository';
 import { AuthModule } from 'src/auth/auth.module';
 import { MulterModule } from '@nestjs/platform-express';
 import { Comments, CommentsSchema } from 'src/comments/comments.schema';
+import { CommentsModule } from 'src/comments/comments.module';
 
 @Module({
   imports: [
